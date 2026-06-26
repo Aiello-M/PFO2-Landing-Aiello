@@ -1,0 +1,223 @@
+:root {
+  --bg-color: #d5bfaf;
+  --bg-card: #f6e9d7;
+  --surface: #fdfdfd;
+  --primary: #d35400;
+  --primary-hover: #a04000;
+  --secondary: #3a5f43;
+  --secondary-hover: #26422d;
+  --text-main: #2c1e16;
+  --text-muted: #8b5a2b;
+  --border: #e5e7eb;
+  --code-bg: #272311;
+  --code-text: #f9fafb;
+  --tag-color: #14b8a6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 850px;
+  width: 100%;
+  background: var(--surface);
+  padding: 3.5rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(44, 30, 22, 0.08);
+  border: 1px solid var(--border);
+}
+
+.prompt-container {
+  max-width: 900px;
+}
+
+.brand-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.brand-tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 2.5rem;
+  color: var(--text-main);
+  margin-bottom: 0.5rem;
+}
+
+p.subtitle {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.agent-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  background: var(--bg-card);
+}
+
+.agent-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--primary);
+  box-shadow: 0 15px 30px rgba(211, 84, 0, 0.12);
+}
+
+h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-main);
+}
+
+.agent-model {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--primary);
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  transition:
+    background-color 0.2s,
+    transform 0.2s;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-alt {
+  background-color: var(--secondary);
+}
+
+.btn-alt:hover {
+  background-color: var(--secondary-hover);
+}
+
+.prompt-section {
+  border-top: 1px solid var(--border);
+  padding-top: 2.5rem;
+  text-align: center;
+}
+
+.prompt-text {
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--text-main);
+  border: 1px solid var(--text-muted);
+  margin-top: 1rem;
+  width: auto;
+  padding: 0.8rem 2.5rem;
+  border-radius: 8px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background-color: rgba(211, 84, 0, 0.05);
+  transform: translateY(-2px);
+}
+
+.nav-bar {
+  margin-bottom: 2rem;
+  margin-top: -1rem;
+  margin-left: -1.5rem;
+}
+
+.back-link {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.2s;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+  transform: translateX(-4px);
+}
+
+.header-centered {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+p.desc {
+  color: var(--text-muted);
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+}
+
+.code-container {
+  background-color: var(--code-bg);
+  border-radius: 12px;
+  padding: 2.5rem;
+  overflow-x: auto;
+  border: 1px solid #1f2937;
+  box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+pre {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.9rem;
+  color: var(--code-text);
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.tag {
+  color: var(--tag-color);
+  font-weight: 500;
+}

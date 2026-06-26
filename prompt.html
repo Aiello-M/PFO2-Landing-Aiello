@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prompt Maestro - Cosecha Dorada</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;800&family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container prompt-container">
+      <div class="nav-bar">
+        <a href="index.html" class="back-link">← Volver a la Portada</a>
+      </div>
+
+      <div class="header-centered">
+        <h1>Prompt Maestro</h1>
+        <p class="desc">
+          Prompt único de alta precisión proporcionado a los agentes de IA
+          (Cursor y OpenCode) para generar la Landing Page de un comercio
+          llamado "Cosecha Dorada".
+        </p>
+      </div>
+
+      <div class="code-container">
+        <pre>
+<span class="tag">&lt;context&gt;</span>
+Act as an expert Front-End Development and UI/UX Design team.
+Your task is to create a complete, professional, modern, and visually attractive Landing Page for a premium healthy food store called "Cosecha Dorada".
+The website must transmit freshness, health, naturalness, quality, and trust.
+The result must be 100% functional and ready to deploy on Vercel without any manual modifications.
+<span class="tag">&lt;/context&gt;</span>
+
+<span class="tag">&lt;business_context&gt;</span>
+Business Name: "Cosecha Dorada"
+Concept: A premium healthy food store offering fresh seasonal fruits, natural whole foods, artisanal jams, and organic packaged products. The visual storytelling should connect the fresh fruits with the artisanal jam-making process.
+Values: Natural • Healthy • Fresh • Delicious • Honest • Sustainable
+Target Audience: Families, fitness enthusiasts, and health-conscious consumers seeking premium ingredients.
+Tone of Voice: Friendly, professional, inspiring, and honest.
+<span class="tag">&lt;/business_context&gt;</span>
+
+<span class="tag">&lt;branding&gt;</span>
+Create a custom textual logo for "Cosecha Dorada" using HTML/CSS.
+The logo must feel like a real premium healthy food brand and be elegantly integrated into both the header and the footer.
+Do NOT use placeholder logos, basic typography, or generic text treatments like &lt;h2&gt;Logo&lt;/h2&gt;.
+<span class="tag">&lt;/branding&gt;</span>
+
+<span class="tag">&lt;language&gt;</span>
+Prompt instructions are written in English for clarity.
+However, ALL user-facing content generated for the website MUST be written in Latin American Spanish (Español Latino), including menus, headlines, products, testimonials, alt text, and SEO metadata.
+The generated HTML document MUST use: &lt;html lang="es"&gt;
+The only content that must remain in English is the image-generation prompt written inside HTML comments.
+<span class="tag">&lt;/language&gt;</span>
+
+<span class="tag">&lt;design_system&gt;</span>
+Style: Premium Natural Market with a clean, editorial-inspired layout, generous white space, and subtle rounded elements.
+Avoid: Dark themes, excessive glassmorphism, overused gradients, and generic floating cards.
+Color Palette:
+- Primary Orange: #FF8C00
+- Secondary Orange: #F47A26
+- Golden Accent: #DFAF37
+- Fresh Green: #5FAF4A
+- Background: #FFF8F0
+- Section Background: #FFFFFF
+- Primary Text: #2B2B2B
+- Secondary Text: #666666
+Typography (Google Fonts):
+- Headings: Outfit (600, 700, 800)
+- Body: Inter (400, 500)
+<span class="tag">&lt;/design_system&gt;</span>
+
+<span class="tag">&lt;images&gt;</span>
+Use ONLY local image paths. Do NOT use external URLs.
+Do NOT generate SVG placeholders, dummy illustrations, or temporary visual blocks.
+Only use the provided image paths. Do not create or assume any additional files.
+Do NOT reuse the same image for multiple products. Each product card MUST display its specific image.
+
+You MUST use the following specific paths:
+- Hero Section: img/hero-fruits.jpg
+- About Section: img/about-store.jpg
+- Categories Section: img/products-display.jpg
+- Jam Section: img/artisanal-jam.jpg
+- Product Naranjas Frescas: img/product-orange.jpg
+- Product Frutillas: img/product-strawberry.jpg
+- Product Granola Orgánica: img/product-granola.jpg
+- Product Mermelada: img/product-orange-jam.jpg
+
+Obligatory: Immediately AFTER each &lt;img&gt; tag in the HTML, include an HTML comment with a highly detailed English prompt describing the perfect image for that section, so I can generate it with another AI tool. Describe professional food photography, natural golden hour lighting, and premium grocery presentation.
+<span class="tag">&lt;/images&gt;</span>
+
+<span class="tag">&lt;required_sections&gt;</span>
+Create the following sections:
+1. Header: Logo on the left, navigation menu on the right. Sticky header with subtle shadow. Mobile hamburger menu.
+2. Hero Section: Large headline, short subtitle, strong CTA button, and the fresh fruits image.
+3. About Us: Short description about the store, its mission, and quality commitment. Include image.
+4. Product Categories: 4 categories (Fresh Fruits, Whole Foods, Packaged Products, Artisanal Jams) using icons or images.
+5. Featured Products: Grid showing premium products. It MUST strictly include these 4 items: Naranjas Frescas, Frutillas, Granola Orgánica, Mermelada Artesanal de Naranja. Each product must contain: Product image, Product name, and a Short description.
+6. Why Choose Us: 3 or 4 reasons (quality, organic, sustainable, handmade).
+7. Testimonials: 2 or 3 customer reviews.
+8. Newsletter: Short section encouraging users to subscribe.
+9. Contact: Form (front-end only) with fields for Name, Email, Message, and Submit button.
+10. Footer: Logo, quick links, categories, social media icons, and copyright.
+<span class="tag">&lt;/required_sections&gt;</span>
+
+<span class="tag">&lt;content&gt;</span>
+- Generate all text content automatically.
+- Write original, persuasive, and realistic text.
+- Do NOT use emojis anywhere in the website.
+- Do NOT use: Placeholder names, Generic filler content, "Lorem Ipsum", "John Doe", or "Sample Company".
+- Generate realistic customer names commonly used in Spanish-speaking countries.
+<span class="tag">&lt;/content&gt;</span>
+
+<span class="tag">&lt;interactions_and_animations&gt;</span>
+Implement: Reveal on Scroll using IntersectionObserver, hover effect on product cards (transform: translateY(-6px)), smooth transitions (duration: 300ms), sticky header, fully functional mobile hamburger menu. Avoid heavy animations.
+<span class="tag">&lt;/interactions_and_animations&gt;</span>
+
+<span class="tag">&lt;responsive_design&gt;</span>
+Use a Mobile First approach. Minimum breakpoints: Mobile (320px+), Tablet (768px+), Desktop (1024px+). The layout must adapt correctly across all viewport sizes.
+<span class="tag">&lt;/responsive_design&gt;</span>
+
+<span class="tag">&lt;accessibility_and_seo&gt;</span>
+- All form inputs must have associated &lt;label&gt; tags.
+- Color contrast must meet WCAG AA standard.
+- Website must be fully navigable using only the keyboard.
+- Use optimized &lt;title&gt;, meta description, proper H1-H3 hierarchy, and semantic HTML5.
+<span class="tag">&lt;/accessibility_and_seo&gt;</span>
+
+<span class="tag">&lt;technical_constraints&gt;</span>
+You MUST use ONLY HTML5, CSS3, and Vanilla JavaScript (ES6+).
+You MUST NOT use React, Vue, Angular, Bootstrap, Tailwind, jQuery, TypeScript, or external icon libraries. Use inline SVG icons when needed.
+<span class="tag">&lt;/technical_constraints&gt;</span>
+
+<span class="tag">&lt;output_format&gt;</span>
+Return EXACTLY three complete code blocks in this order:
+First code block: index.html
+Second code block: styles.css
+Third code block: main.js
+
+The HTML file MUST reference the external CSS and JavaScript files:
+&lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;script src="main.js" defer&gt;&lt;/script&gt;
+
+Do NOT embed CSS inside &lt;style&gt; tags or JS inside &lt;script&gt; tags within index.html.
+Do not return any text before, between, or after the code blocks.
+DO NOT truncate code. Provide the full, production-ready code.
+<span class="tag">&lt;/output_format&gt;</span>
+
+<span class="tag">&lt;acceptance_criteria&gt;</span>
+The solution is considered correct ONLY if all of the following are true:
+✓ Header, Hero, About, Categories, Featured Products (with 4 specific items), Testimonials, Newsletter, Contact, and Footer exist.
+✓ Responsive on mobile, tablet, and desktop using Mobile First approach.
+✓ No frameworks or libraries are used (Only HTML5, CSS3, Vanilla JS).
+✓ Images use local paths only.
+✓ Content is realistic (No Lorem Ipsum, emojis or generic placeholders) and in Latin American Spanish.
+✓ Code is complete, functional, and ready for deployment without modifications.
+<span class="tag">&lt;/acceptance_criteria&gt;</span>
+
+<span class="tag">&lt;verification&gt;</span>
+Before returning the final answer:
+1. Verify all acceptance criteria are met.
+2. Verify no forbidden technologies are used.
+3. Verify that all visible website content is written in Latin American Spanish.
+4. Verify that no placeholder images, SVG illustrations acting as photos, placeholder text, or unfinished elements remain.
+If anything is missing or not optimal, fix it automatically. Return ONLY the final validated solution.
+<span class="tag">&lt;/verification&gt;</span>
+        </pre>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosecha Dorada - Evaluación de IA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Outfit:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Aquí llamamos a tu archivo CSS externo -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="brand-header">
+        <span class="brand-tag"
+          >PFO2 • Desarrollo de Sistemas Web (Front End)</span
+        >
+        <h1>Prompt Engineering en Agentes IA</h1>
+        <p class="subtitle">
+          Comparativa de generación de código Zero-Shot entre agentes de
+          Inteligencia Artificial.
+        </p>
+      </div>
+
+      <div class="grid">
+        <div class="agent-card">
+          <h2>Agente 1: Codex (OpenAI)</h2>
+          <p class="agent-model">Modelo: GPT-5.5 con razonamiento Medio</p>
+          <a href="agente1-openai/index.html" class="btn" target="_blank"
+            >Ver Landing Page</a
+          >
+        </div>
+
+        <div class="agent-card">
+          <h2>Agente 2: Cursor</h2>
+          <p class="agent-model">Modelo: Cursor-Small (Free Tier Default)</p>
+          <a
+            href="agente2-cursor/index.html"
+            class="btn btn-alt"
+            target="_blank"
+            >Ver Landing Page</a
+          >
+        </div>
+      </div>
+
+      <div class="prompt-section">
+        <p class="prompt-text">
+          Se ejecutó la misma instrucción maestra en ambos agentes, con el
+          objetivo de generar una Landing Page y comparar su capacidad de
+          resolución autónoma.
+        </p>
+        <a href="prompt.html" class="btn btn-outline">Leer Prompt Maestro</a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1083 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cosecha Dorada — Tienda premium de alimentos saludables. Frutas frescas de temporada, granos integrales, mermeladas artesanales y productos orgánicos seleccionados con cuidado."
+    />
+    <meta
+      name="keywords"
+      content="alimentos saludables, frutas frescas, mermelada artesanal, productos orgánicos, tienda natural"
+    />
+    <meta name="author" content="Cosecha Dorada" />
+    <title>Cosecha Dorada | Alimentos Saludables Premium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Outfit:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a href="#contenido-principal" class="skip-link"
+      >Saltar al contenido principal</a
+    >
+
+    <div class="page-accent page-accent--hero" aria-hidden="true">
+      <svg
+        class="page-accent__leaf page-accent__leaf--1"
+        viewBox="0 0 80 120"
+        fill="none"
+      >
+        <path
+          d="M40 4C40 4 8 36 8 72C8 96 20 112 40 116C60 112 72 96 72 72C72 36 40 4 40 4Z"
+          fill="currentColor"
+          opacity="0.06"
+        />
+        <path
+          d="M40 20V116"
+          stroke="currentColor"
+          stroke-width="1.5"
+          opacity="0.12"
+        />
+      </svg>
+      <svg
+        class="page-accent__leaf page-accent__leaf--2"
+        viewBox="0 0 60 90"
+        fill="none"
+      >
+        <path
+          d="M30 2C30 2 6 28 6 56C6 72 14 84 30 88C46 84 54 72 54 56C54 28 30 2 30 2Z"
+          fill="currentColor"
+          opacity="0.05"
+        />
+      </svg>
+    </div>
+
+    <header class="header" id="header">
+      <div class="container header__inner">
+        <a href="#inicio" class="logo" aria-label="Cosecha Dorada — Inicio">
+          <span class="logo__mark" aria-hidden="true">
+            <svg
+              viewBox="0 0 44 44"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="22"
+                cy="22"
+                r="20"
+                stroke="url(#logoRing)"
+                stroke-width="1.5"
+              />
+              <path
+                d="M22 10C22 10 15 17 15 23C15 27.5 18 31 22 31C26 31 29 27.5 29 23C29 17 22 10 22 10Z"
+                fill="url(#logoLeaf)"
+              />
+              <path
+                d="M22 10V7M22 7C22 7 25 4 28 5.5"
+                stroke="#5FAF4A"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <defs>
+                <linearGradient id="logoRing" x1="2" y1="2" x2="42" y2="42">
+                  <stop stop-color="#DFAF37" />
+                  <stop offset="1" stop-color="#FF8C00" />
+                </linearGradient>
+                <linearGradient id="logoLeaf" x1="15" y1="10" x2="29" y2="31">
+                  <stop stop-color="#5FAF4A" />
+                  <stop offset="1" stop-color="#3D8B32" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </span>
+          <span class="logo__text">
+            <span class="logo__name">Cosecha</span>
+            <span class="logo__accent">Dorada</span>
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Abrir menú de navegación"
+          aria-expanded="false"
+          aria-controls="navMenu"
+        >
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+
+        <nav class="nav" id="navMenu" aria-label="Navegación principal">
+          <ul class="nav__list">
+            <li><a href="#inicio" class="nav__link">Inicio</a></li>
+            <li><a href="#nosotros" class="nav__link">Nosotros</a></li>
+            <li><a href="#categorias" class="nav__link">Categorías</a></li>
+            <li><a href="#productos" class="nav__link">Productos</a></li>
+            <li>
+              <a href="#contacto" class="nav__link nav__link--cta">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido-principal">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="container hero__inner">
+          <div class="hero__content reveal">
+            <p class="hero__eyebrow">
+              Alimentos naturales de origen responsable
+            </p>
+            <h1 class="hero__title" id="hero-title">
+              Frescura que nutre,<br />sabor que inspira
+            </h1>
+            <p class="hero__subtitle">
+              Descubrí frutas de temporada, alimentos integrales y mermeladas
+              artesanales elaboradas con ingredientes seleccionados a mano en
+              cada estación del año.
+            </p>
+            <div class="hero__actions">
+              <a href="#productos" class="btn btn--primary"
+                >Descubrir Colección</a
+              >
+              <a href="#nosotros" class="btn btn--ghost"
+                >Conocer nuestra historia</a
+              >
+            </div>
+            <ul class="hero__stats" aria-label="Datos destacados de la tienda">
+              <li class="hero__stat">
+                <span class="hero__stat-value">15+</span>
+                <span class="hero__stat-label">Años de experiencia</span>
+              </li>
+              <li class="hero__stat">
+                <span class="hero__stat-value">80+</span>
+                <span class="hero__stat-label">Productos premium</span>
+              </li>
+              <li class="hero__stat">
+                <span class="hero__stat-value">100%</span>
+                <span class="hero__stat-label">Origen trazable</span>
+              </li>
+            </ul>
+          </div>
+          <div class="hero__media reveal reveal--delay">
+            <div class="hero__image-frame">
+              <div class="hero__image-wrapper">
+                <img
+                  src="img/hero-fruits.jpg"
+                  alt="Selección premium de frutas frescas de temporada sobre mesa de madera natural"
+                  width="640"
+                  height="480"
+                  loading="eager"
+                />
+                <!-- Professional food photography of a premium healthy food store hero display: abundant seasonal fresh fruits including oranges, strawberries, apples and grapes arranged artfully on a rustic light oak wooden table, soft golden hour natural window light from the left, shallow depth of field, warm cream and green tones, editorial grocery aesthetic, high-end organic market presentation, 4K quality, no text, no people -->
+              </div>
+              <div class="hero__badge">
+                <span class="hero__badge-icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  </svg>
+                </span>
+                <span class="hero__badge-text">Calidad certificada</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="about section"
+        id="nosotros"
+        aria-labelledby="about-title"
+      >
+        <div class="container about__inner">
+          <div class="about__media reveal">
+            <div class="about__image-frame">
+              <div class="about__image-wrapper">
+                <img
+                  src="img/about-store.jpg"
+                  alt="Interior acogedor de la tienda Cosecha Dorada con estantes de productos naturales"
+                  width="560"
+                  height="420"
+                  loading="lazy"
+                />
+                <!-- Professional interior photography of a premium natural food store: warm inviting market interior with wooden shelves displaying organic products, fresh produce bins, soft ambient golden hour lighting through large windows, clean editorial layout, plants and natural materials, sustainable grocery aesthetic, welcoming atmosphere, no people, no text -->
+              </div>
+              <div class="about__experience">
+                <span class="about__experience-number">2010</span>
+                <span class="about__experience-text"
+                  >Desde el corazón del campo</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="about__content reveal reveal--delay">
+            <span class="section__eyebrow">Nuestra historia</span>
+            <h2 class="section__title" id="about-title">
+              Del campo a tu mesa, con honestidad
+            </h2>
+            <p class="about__text">
+              En Cosecha Dorada creemos que comer bien comienza con elegir bien.
+              Seleccionamos cada producto directamente de productores locales y
+              regionales que comparten nuestro compromiso con la calidad y el
+              respeto por la tierra.
+            </p>
+            <p class="about__text">
+              Nuestra misión es acercarte ingredientes frescos, nutritivos y
+              deliciosos que transformen tu rutina diaria en un ritual de
+              bienestar. Desde las frutas recién cosechadas hasta nuestras
+              mermeladas elaboradas en pequeños lotes, cada detalle refleja
+              nuestro amor por lo natural.
+            </p>
+            <ul class="about__values">
+              <li class="about__value">
+                <span class="about__value-icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  </svg>
+                </span>
+                <span>Compromiso con la calidad en cada selección</span>
+              </li>
+              <li class="about__value">
+                <span class="about__value-icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M17 8C8 10 5.9 16.17 3 22c3.5-1.5 6-4 8-6 2 2 4.5 4.5 8 6-1.5-5.5-2.5-11-2.5-14z"
+                    />
+                    <circle cx="12" cy="8" r="2" />
+                  </svg>
+                </span>
+                <span>Productos de origen trazable y responsable</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="categories section section--warm"
+        id="categorias"
+        aria-labelledby="categories-title"
+      >
+        <div class="container">
+          <header class="section__header reveal">
+            <span class="section__eyebrow">Nuestras categorías</span>
+            <h2 class="section__title" id="categories-title">
+              Todo lo que tu cocina saludable necesita
+            </h2>
+            <p class="section__subtitle">
+              Una selección curada de productos premium para una alimentación
+              consciente, nutritiva y deliciosa en cada comida.
+            </p>
+          </header>
+
+          <div class="categories__featured reveal">
+            <div class="categories__featured-frame">
+              <img
+                src="img/products-display.jpg"
+                alt="Exhibición variada de productos naturales y orgánicos en estantes de madera"
+                width="1200"
+                height="400"
+                loading="lazy"
+              />
+              <!-- Professional food photography of a premium grocery products display: wide editorial shot of wooden market shelves with fresh fruits, whole grain packages, artisanal jam jars and organic products beautifully arranged, natural golden hour lighting, warm cream background tones, high-end health food store aesthetic, clean composition, no text, no people -->
+            </div>
+          </div>
+
+          <div class="categories__grid">
+            <article class="category-card reveal">
+              <div class="category-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="24" cy="28" r="14" />
+                  <path d="M24 14V10M24 10C24 10 27 7 30 8" />
+                  <path d="M18 26c0-3 2.5-5 6-5s6 2 6 5" />
+                </svg>
+              </div>
+              <h3 class="category-card__title">Frutas Frescas</h3>
+              <p class="category-card__text">
+                Frutas de temporada seleccionadas a mano, cosechadas en su punto
+                óptimo de madurez para garantizar sabor y nutrientes.
+              </p>
+              <span class="category-card__link">Ver selección</span>
+            </article>
+
+            <article class="category-card reveal reveal--delay">
+              <div class="category-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M10 20h28v20H10z" />
+                  <path d="M16 20V14c0-3 2.5-6 8-6s8 3 8 6v6" />
+                  <circle cx="24" cy="30" r="4" />
+                </svg>
+              </div>
+              <h3 class="category-card__title">Alimentos Integrales</h3>
+              <p class="category-card__text">
+                Granos, semillas y cereales integrales sin procesar, ideales
+                para una alimentación equilibrada y nutritiva.
+              </p>
+              <span class="category-card__link">Ver selección</span>
+            </article>
+
+            <article class="category-card reveal reveal--delay-2">
+              <div class="category-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="12" y="8" width="24" height="32" rx="2" />
+                  <path d="M18 16h12M18 22h12M18 28h8" />
+                </svg>
+              </div>
+              <h3 class="category-card__title">Productos Envasados</h3>
+              <p class="category-card__text">
+                Selección de productos orgánicos certificados, envasados de
+                forma responsable y libres de aditivos innecesarios.
+              </p>
+              <span class="category-card__link">Ver selección</span>
+            </article>
+
+            <article class="category-card reveal reveal--delay-3">
+              <div class="category-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M16 38h16l2-24H14l2 24z" />
+                  <ellipse cx="24" cy="14" rx="10" ry="6" />
+                  <path d="M20 14h8" />
+                </svg>
+              </div>
+              <h3 class="category-card__title">Mermeladas Artesanales</h3>
+              <p class="category-card__text">
+                Elaboradas en pequeños lotes con frutas frescas de nuestra
+                selección, sin conservantes artificiales.
+              </p>
+              <span class="category-card__link">Ver selección</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="jam section" aria-labelledby="jam-title">
+        <div class="container jam__inner">
+          <div class="jam__media reveal">
+            <div class="jam__image-frame">
+              <img
+                src="img/artisanal-jam.jpg"
+                alt="Proceso artesanal de elaboración de mermelada de naranja con frutas frescas"
+                width="560"
+                height="420"
+                loading="lazy"
+              />
+              <!-- Professional food photography of artisanal jam making process: glass jars of golden orange marmalade on rustic wooden counter, fresh whole oranges and orange slices nearby, copper pot with simmering jam in soft focus background, warm golden hour natural light, premium artisan kitchen aesthetic, storytelling connection between fresh fruit and finished product, no text, no people -->
+            </div>
+          </div>
+          <div class="jam__content reveal reveal--delay">
+            <span class="section__eyebrow">Artesanía en cada frasco</span>
+            <h2 class="section__title" id="jam-title">
+              De la fruta fresca a la mermelada perfecta
+            </h2>
+            <p class="jam__text">
+              Transformamos las mismas naranjas que seleccionamos en nuestros
+              estantes en mermeladas artesanales de sabor incomparable. Cada
+              frasco es el resultado de un proceso cuidadoso: cocción lenta,
+              ingredientes mínimos y recetas que honran el sabor natural de la
+              fruta.
+            </p>
+            <a href="#productos" class="btn btn--secondary"
+              >Encontrar Sabores Auténticos</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="products section section--alt"
+        id="productos"
+        aria-labelledby="products-title"
+      >
+        <div class="container">
+          <header class="section__header reveal">
+            <span class="section__eyebrow">Destacados</span>
+            <h2 class="section__title" id="products-title">
+              Productos seleccionados para vos
+            </h2>
+            <p class="section__subtitle">
+              Una muestra de lo mejor de nuestra cosecha: ingredientes premium
+              para elevar tu alimentación diaria.
+            </p>
+          </header>
+
+          <div class="products__grid">
+            <article class="product-card reveal">
+              <div class="product-card__image">
+                <span class="product-card__tag">Temporada</span>
+                <img
+                  src="img/product-orange.jpg"
+                  alt="Naranjas frescas valencianas de temporada en cesta de mimbre"
+                  width="300"
+                  height="300"
+                  loading="lazy"
+                />
+                <!-- Professional food photography of premium fresh oranges: plump vibrant Valencia oranges with leaves in a woven wicker basket, dewy fresh appearance, soft golden hour natural lighting on cream linen background, premium grocery product shot, shallow depth of field, high-end organic market aesthetic, no text -->
+              </div>
+              <div class="product-card__body">
+                <h3 class="product-card__title">Naranjas Frescas</h3>
+                <p class="product-card__desc">
+                  Naranjas valencianas de cosecha reciente, jugosas y ricas en
+                  vitamina C. Perfectas para jugos naturales o consumo directo.
+                </p>
+              </div>
+            </article>
+
+            <article class="product-card reveal reveal--delay">
+              <div class="product-card__image">
+                <span class="product-card__tag">Orgánico</span>
+                <img
+                  src="img/product-strawberry.jpg"
+                  alt="Frutillas rojas frescas y brillantes recién cosechadas"
+                  width="300"
+                  height="300"
+                  loading="lazy"
+                />
+                <!-- Professional food photography of premium fresh strawberries: glossy ripe red strawberries with green stems arranged in a small wooden crate, natural golden hour side lighting, cream background, macro detail showing freshness and texture, premium organic produce aesthetic, no text -->
+              </div>
+              <div class="product-card__body">
+                <h3 class="product-card__title">Frutillas</h3>
+                <p class="product-card__desc">
+                  Frutillas cultivadas sin pesticidas de síntesis, dulces y
+                  aromáticas. Ideales para desayunos, postres y smoothies
+                  saludables.
+                </p>
+              </div>
+            </article>
+
+            <article class="product-card reveal reveal--delay-2">
+              <div class="product-card__image">
+                <span class="product-card__tag">Artesanal</span>
+                <img
+                  src="img/product-granola.jpg"
+                  alt="Granola orgánica artesanal con avena, nueces y miel en frasco de vidrio"
+                  width="300"
+                  height="300"
+                  loading="lazy"
+                />
+                <!-- Professional food photography of organic artisanal granola: golden crunchy granola with oats, nuts and honey drizzles spilling from a clear glass jar onto rustic wooden surface, scattered almonds and dried fruits, warm natural golden hour lighting, premium health food packaging aesthetic, no text -->
+              </div>
+              <div class="product-card__body">
+                <h3 class="product-card__title">Granola Orgánica</h3>
+                <p class="product-card__desc">
+                  Mezcla crujiente de avena, nueces y miel de origen local.
+                  Elaborada artesanalmente sin azúcares refinados añadidos.
+                </p>
+              </div>
+            </article>
+
+            <article class="product-card reveal reveal--delay-3">
+              <div class="product-card__image">
+                <span class="product-card__tag product-card__tag--gold"
+                  >Hecho a mano</span
+                >
+                <img
+                  src="img/product-orange-jam.jpg"
+                  alt="Mermelada artesanal de naranja en frasco de vidrio con etiqueta artesanal"
+                  width="300"
+                  height="300"
+                  loading="lazy"
+                />
+                <!-- Professional food photography of artisanal orange marmalade: elegant glass jar filled with glistening golden orange marmalade, fresh orange slice on top of jar lid, rustic wooden table, warm golden hour natural light, premium artisan food product shot, visible fruit pieces in jam, no readable text on label -->
+              </div>
+              <div class="product-card__body">
+                <h3 class="product-card__title">
+                  Mermelada Artesanal de Naranja
+                </h3>
+                <p class="product-card__desc">
+                  Elaborada con naranjas de nuestra selección en lotes pequeños.
+                  Textura sedosa y sabor intenso, sin conservantes artificiales.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="why section section--dark"
+        id="por-que"
+        aria-labelledby="why-title"
+      >
+        <div class="container">
+          <header class="section__header section__header--light reveal">
+            <span class="section__eyebrow section__eyebrow--light"
+              >Nuestra diferencia</span
+            >
+            <h2 class="section__title section__title--light" id="why-title">
+              ¿Por qué elegir Cosecha Dorada?
+            </h2>
+            <p class="section__subtitle section__subtitle--light">
+              Cuatro pilares que definen nuestra promesa con cada cliente y cada
+              producto que llega a tu mesa.
+            </p>
+          </header>
+
+          <div class="why__grid">
+            <article class="why-card reveal">
+              <div class="why-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M24 4l6 12 13 2-9 9 2 13-12-6-12 6 2-13-9-9 13-2z" />
+                </svg>
+              </div>
+              <h3 class="why-card__title">Calidad Premium</h3>
+              <p class="why-card__text">
+                Cada producto pasa por un riguroso proceso de selección. Solo
+                aceptamos lo mejor de cada cosecha para garantizar frescura y
+                sabor excepcional.
+              </p>
+            </article>
+
+            <article class="why-card reveal reveal--delay">
+              <div class="why-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="24" cy="24" r="20" />
+                  <path d="M16 24l6 6 12-12" />
+                </svg>
+              </div>
+              <h3 class="why-card__title">100% Orgánico</h3>
+              <p class="why-card__text">
+                Trabajamos con productores certificados que cultivan sin
+                químicos de síntesis, respetando los ciclos naturales de la
+                tierra.
+              </p>
+            </article>
+
+            <article class="why-card reveal reveal--delay-2">
+              <div class="why-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M24 42c0 0 16-8 16-20V14l-16-8-16 8v8c0 12 16 20 16 20z"
+                  />
+                  <path d="M18 24l4 4 8-8" />
+                </svg>
+              </div>
+              <h3 class="why-card__title">Prácticas Sostenibles</h3>
+              <p class="why-card__text">
+                Priorizamos envases reciclables, reducimos el desperdicio y
+                apoyamos la agricultura local para minimizar nuestra huella
+                ambiental.
+              </p>
+            </article>
+
+            <article class="why-card reveal reveal--delay-3">
+              <div class="why-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M12 36l8-20 8 12 8-16 4 24H8l4-12z" />
+                </svg>
+              </div>
+              <h3 class="why-card__title">Hecho a Mano</h3>
+              <p class="why-card__text">
+                Nuestras mermeladas y productos artesanales se elaboran en
+                pequeños lotes con técnicas tradicionales y recetas de autor.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="testimonials section section--alt"
+        id="testimonios"
+        aria-labelledby="testimonials-title"
+      >
+        <div class="container">
+          <header class="section__header reveal">
+            <span class="section__eyebrow">Lo que dicen nuestros clientes</span>
+            <h2 class="section__title" id="testimonials-title">
+              Experiencias que nos inspiran
+            </h2>
+          </header>
+
+          <div class="testimonials__grid">
+            <blockquote class="testimonial reveal">
+              <div class="testimonial__quote-mark" aria-hidden="true">"</div>
+              <div
+                class="testimonial__stars"
+                aria-label="Calificación: 5 de 5 estrellas"
+              >
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M10 1l2.5 5.5L18 7.5l-4.5 4 1 6-4.5-3-4.5 3 1-6L2 7.5l5.5-1z"
+                  />
+                </svg>
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M10 1l2.5 5.5L18 7.5l-4.5 4 1 6-4.5-3-4.5 3 1-6L2 7.5l5.5-1z"
+                  />
+                </svg>
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M10 1l2.5 5.5L18 7.5l-4.5 4 1 6-4.5-3-4.5 3 1-6L2 7.5l5.5-1z"
+                  />
+                </svg>
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M10 1l2.5 5.5L18 7.5l-4.5 4 1 6-4.5-3-4.5 3 1-6L2 7.5l5.5-1z"
+                  />
+                </svg>
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M10 1l2.5 5.5L18 7.5l-4.5 4 1 6-4.5-3-4.5 3 1-6L2 7.5l5.5-1z"
+                  />
+                </svg>
+              </div>
+              <p class="testimonial__text">
+                Desde que descubrí Cosecha Dorada, mis compras semanales
+                cambiaron por completo. Las naranjas son las más jugosas que
+                probé y la mermelada artesanal tiene un sabor casero increíble.
+              </p>
+              <footer class="testimonial__author">
+                <cite class="testimonial__name">Valentina Morales</cite>
+                <span class="testimonial__role"
+                  >Entrenadora personal, Buenos Aires</span
+                >
+              </footer>
+            </blockquote>
+
+            <blockquote class="testimonial reveal reveal--delay">
+              <div class="testimonial__quote-mark" aria-hidden="true">"</div>
+              <div
+                class="testimonial__stars"
+                aria-label="Calificación: 5 de 5 estrellas"
+              >
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M10 1l2.5 5.5L18 7.5l-4.5 4 1 6-4.5-3-4.5 3 1-6L2 7.5l5.5-1z"
+                  />
+                </svg>
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M10 1l2.5 5.5L18 7.5l-4.5 4 1 6-4.5-3-4.5 3 1-6L2 7.5l5.5-1z"
+                  />
+                </svg>
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M10 1l2.5 5.5L18 7.5l-4.5 4 1 6-4.5-3-4.5 3 1-6L2 7.5l5.5-1z"
+                  />
+                </svg>
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M10 1l2.5 5.5L18 7.5l-4.5 4 1 6-4.5-3-4.5 3 1-6L2 7.5l5.5-1z"
+                  />
+                </svg>
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M10 1l2.5 5.5L18 7.5l-4.5 4 1 6-4.5-3-4.5 3 1-6L2 7.5l5.5-1z"
+                  />
+                </svg>
+              </div>
+              <p class="testimonial__text">
+                Como madre de familia, valoro la transparencia y la calidad. Mis
+                hijos adoran las frutillas y yo confío en que cada producto es
+                natural y cuidadosamente seleccionado.
+              </p>
+              <footer class="testimonial__author">
+                <cite class="testimonial__name">Camila Restrepo</cite>
+                <span class="testimonial__role"
+                  >Diseñadora gráfica, Medellín</span
+                >
+              </footer>
+            </blockquote>
+
+            <blockquote class="testimonial reveal reveal--delay-2">
+              <div class="testimonial__quote-mark" aria-hidden="true">"</div>
+              <div
+                class="testimonial__stars"
+                aria-label="Calificación: 5 de 5 estrellas"
+              >
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M10 1l2.5 5.5L18 7.5l-4.5 4 1 6-4.5-3-4.5 3 1-6L2 7.5l5.5-1z"
+                  />
+                </svg>
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M10 1l2.5 5.5L18 7.5l-4.5 4 1 6-4.5-3-4.5 3 1-6L2 7.5l5.5-1z"
+                  />
+                </svg>
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M10 1l2.5 5.5L18 7.5l-4.5 4 1 6-4.5-3-4.5 3 1-6L2 7.5l5.5-1z"
+                  />
+                </svg>
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M10 1l2.5 5.5L18 7.5l-4.5 4 1 6-4.5-3-4.5 3 1-6L2 7.5l5.5-1z"
+                  />
+                </svg>
+                <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M10 1l2.5 5.5L18 7.5l-4.5 4 1 6-4.5-3-4.5 3 1-6L2 7.5l5.5-1z"
+                  />
+                </svg>
+              </div>
+              <p class="testimonial__text">
+                La granola orgánica es mi desayuno favorito. Se nota la
+                diferencia en la calidad de los ingredientes. Cosecha Dorada se
+                convirtió en mi tienda de confianza.
+              </p>
+              <footer class="testimonial__author">
+                <cite class="testimonial__name">Andrés Fuentes</cite>
+                <span class="testimonial__role"
+                  >Nutricionista deportivo, Santiago</span
+                >
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="newsletter section"
+        id="newsletter"
+        aria-labelledby="newsletter-title"
+      >
+        <div class="container">
+          <div class="newsletter__inner reveal">
+            <div class="newsletter__deco" aria-hidden="true">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  d="M24 8C24 8 10 20 10 32C10 40 16 44 24 44C32 44 38 40 38 32C38 20 24 8 24 8Z"
+                />
+                <path d="M24 8V4M24 4C24 4 28 1 32 3" />
+              </svg>
+            </div>
+            <div class="newsletter__content">
+              <h2 class="newsletter__title" id="newsletter-title">
+                Recibí novedades y recetas saludables
+              </h2>
+              <p class="newsletter__text">
+                Suscribite a nuestro boletín y enterate de las frutas de
+                temporada, promociones exclusivas y recetas con ingredientes
+                naturales.
+              </p>
+            </div>
+            <form class="newsletter__form" id="newsletterForm" novalidate>
+              <div class="newsletter__field">
+                <label for="newsletter-email" class="visually-hidden"
+                  >Correo electrónico</label
+                >
+                <input
+                  type="email"
+                  id="newsletter-email"
+                  name="email"
+                  class="newsletter__input"
+                  placeholder="Tu correo electrónico"
+                  required
+                  autocomplete="email"
+                  aria-describedby="newsletter-email-error"
+                />
+                <span
+                  class="form-error"
+                  id="newsletter-email-error"
+                  role="alert"
+                ></span>
+              </div>
+              <button type="submit" class="btn btn--primary">
+                Suscribirme
+              </button>
+            </form>
+            <p
+              class="newsletter__success"
+              id="newsletterSuccess"
+              role="status"
+              aria-live="polite"
+              hidden
+            >
+              ¡Gracias por suscribirte! Pronto recibirás nuestras novedades.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="contact section section--alt"
+        id="contacto"
+        aria-labelledby="contact-title"
+      >
+        <div class="container">
+          <header class="section__header reveal">
+            <span class="section__eyebrow">Estamos para ayudarte</span>
+            <h2 class="section__title" id="contact-title">Contactanos</h2>
+            <p class="section__subtitle">
+              ¿Tenés consultas sobre nuestros productos o querés hacer un pedido
+              especial? Escribinos y te responderemos a la brevedad.
+            </p>
+          </header>
+
+          <form class="contact__form reveal" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="contact-name" class="form-label"
+                >Nombre completo</label
+              >
+              <input
+                type="text"
+                id="contact-name"
+                name="name"
+                class="form-input"
+                required
+                autocomplete="name"
+                minlength="2"
+                aria-describedby="contact-name-error"
+              />
+              <span
+                class="form-error"
+                id="contact-name-error"
+                role="alert"
+              ></span>
+            </div>
+            <div class="form-group">
+              <label for="contact-email" class="form-label"
+                >Correo electrónico</label
+              >
+              <input
+                type="email"
+                id="contact-email"
+                name="email"
+                class="form-input"
+                required
+                autocomplete="email"
+                aria-describedby="contact-email-error"
+              />
+              <span
+                class="form-error"
+                id="contact-email-error"
+                role="alert"
+              ></span>
+            </div>
+            <div class="form-group">
+              <label for="contact-message" class="form-label">Mensaje</label>
+              <textarea
+                id="contact-message"
+                name="message"
+                class="form-input form-textarea"
+                rows="5"
+                required
+                minlength="10"
+                aria-describedby="contact-message-error"
+              ></textarea>
+              <span
+                class="form-error"
+                id="contact-message-error"
+                role="alert"
+              ></span>
+            </div>
+            <button type="submit" class="btn btn--primary">
+              Enviar mensaje
+            </button>
+            <p
+              class="contact__success"
+              id="contactSuccess"
+              role="status"
+              aria-live="polite"
+              hidden
+            >
+              ¡Mensaje enviado! Nos pondremos en contacto contigo pronto.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <a
+            href="#inicio"
+            class="logo logo--footer"
+            aria-label="Cosecha Dorada — Inicio"
+          >
+            <span class="logo__mark" aria-hidden="true">
+              <svg
+                viewBox="0 0 44 44"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="22"
+                  cy="22"
+                  r="20"
+                  stroke="#DFAF37"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M22 10C22 10 15 17 15 23C15 27.5 18 31 22 31C26 31 29 27.5 29 23C29 17 22 10 22 10Z"
+                  fill="#5FAF4A"
+                />
+                <path
+                  d="M22 10V7M22 7C22 7 25 4 28 5.5"
+                  stroke="#DFAF37"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+            <span class="logo__text">
+              <span class="logo__name">Cosecha</span>
+              <span class="logo__accent">Dorada</span>
+            </span>
+          </a>
+          <p class="footer__tagline">
+            Alimentos naturales seleccionados con pasión y responsabilidad.
+          </p>
+        </div>
+
+        <nav class="footer__nav" aria-label="Enlaces rápidos">
+          <h3 class="footer__heading">Enlaces</h3>
+          <ul class="footer__list">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer__nav" aria-label="Categorías de productos">
+          <h3 class="footer__heading">Categorías</h3>
+          <ul class="footer__list">
+            <li><a href="#categorias">Frutas Frescas</a></li>
+            <li><a href="#categorias">Alimentos Integrales</a></li>
+            <li><a href="#categorias">Productos Envasados</a></li>
+            <li><a href="#categorias">Mermeladas Artesanales</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__social">
+          <h3 class="footer__heading">Seguinos</h3>
+          <ul class="footer__social-list">
+            <li>
+              <a
+                href="#"
+                class="footer__social-link"
+                aria-label="Instagram de Cosecha Dorada"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  aria-hidden="true"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" />
+                  <circle cx="12" cy="12" r="5" />
+                  <circle
+                    cx="17.5"
+                    cy="6.5"
+                    r="1.5"
+                    fill="currentColor"
+                    stroke="none"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="footer__social-link"
+                aria-label="Facebook de Cosecha Dorada"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="footer__social-link"
+                aria-label="WhatsApp de Cosecha Dorada"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"
+                  />
+                  <path
+                    d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="container">
+          <p class="footer__copyright">
+            &copy; 2026 Cosecha Dorada. Todos los derechos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
