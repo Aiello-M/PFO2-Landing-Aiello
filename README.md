@@ -678,7 +678,7 @@ Posteriormente, dichos comentarios fueron utilizados como prompts en **Microsoft
 A continuación se presentan las capturas correspondientes a la portada del proyecto y a las dos Landing Pages generadas por los agentes de IA.
 
 ### Portada principal
-![Portada](assets/portada.png)
+<img src="assets/portada.png" width="800" alt="Portada principal">
 
 <br>
 
@@ -687,16 +687,16 @@ A continuación se presentan las capturas correspondientes a la portada del proy
 <summary><strong>Ver galería de capturas (10 imágenes)</strong></summary>
 <br>
 
-![Codex 1](assets/codex1.png)
-![Codex 2](assets/codex2.png)
-![Codex 3](assets/codex3.png)
-![Codex 4](assets/codex4.png)
-![Codex 5](assets/codex5.png)
-![Codex 6](assets/codex6.png)
-![Codex 7](assets/codex7.png)
-![Codex 8](assets/codex8.png)
-![Codex 9](assets/codex9.png)
-![Codex 10](assets/codex10.png)
+<img src="assets/codex1.png" width="800" alt="Codex 1"><br><br>
+<img src="assets/codex2.png" width="800" alt="Codex 2"><br><br>
+<img src="assets/codex3.png" width="800" alt="Codex 3"><br><br>
+<img src="assets/codex4.png" width="800" alt="Codex 4"><br><br>
+<img src="assets/codex5.png" width="800" alt="Codex 5"><br><br>
+<img src="assets/codex6.png" width="800" alt="Codex 6"><br><br>
+<img src="assets/codex7.png" width="800" alt="Codex 7"><br><br>
+<img src="assets/codex8.png" width="800" alt="Codex 8"><br><br>
+<img src="assets/codex9.png" width="800" alt="Codex 9"><br><br>
+<img src="assets/codex10.png" width="800" alt="Codex 10"><br>
 
 </details>
 
@@ -707,14 +707,14 @@ A continuación se presentan las capturas correspondientes a la portada del proy
 <summary><strong>Ver galería de capturas (8 imágenes)</strong></summary>
 <br>
 
-![Cursor 1](assets/cursor1.png)
-![Cursor 2](assets/cursor2.png)
-![Cursor 3](assets/cursor3.png)
-![Cursor 4](assets/cursor4.png)
-![Cursor 5](assets/cursor5.png)
-![Cursor 6](assets/cursor6.png)
-![Cursor 7](assets/cursor7.png)
-![Cursor 8](assets/cursor8.png)
+<img src="assets/cursor1.png" width="800" alt="Cursor 1"><br><br>
+<img src="assets/cursor2.png" width="800" alt="Cursor 2"><br><br>
+<img src="assets/cursor3.png" width="800" alt="Cursor 3"><br><br>
+<img src="assets/cursor4.png" width="800" alt="Cursor 4"><br><br>
+<img src="assets/cursor5.png" width="800" alt="Cursor 5"><br><br>
+<img src="assets/cursor6.png" width="800" alt="Cursor 6"><br><br>
+<img src="assets/cursor7.png" width="800" alt="Cursor 7"><br><br>
+<img src="assets/cursor8.png" width="800" alt="Cursor 8"><br>
 
 </details>
 
