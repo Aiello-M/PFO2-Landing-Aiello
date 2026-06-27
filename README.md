@@ -673,22 +673,50 @@ Posteriormente, dichos comentarios fueron utilizados como prompts en **Microsoft
 
 ---
 
-##  📸 Capturas de pantalla
+## 📸 Capturas de pantalla
 
-A continuación se presentan las capturas correspondientes a la portada del proyecto y a las dos Landing Pages generadas automáticamente por los agentes de IA.
+A continuación se presentan las capturas correspondientes a la portada del proyecto y a las dos Landing Pages generadas por los agentes de IA.
 
 ### Portada principal
 ![Portada](assets/portada.png)
 
 <br>
 
-### Agente 1
-![Agente 1](assets/agente1.png)
+### Agente 1 — Codex
+<details>
+<summary><strong>Ver galería de capturas (10 imágenes)</strong></summary>
+<br>
+
+![Codex 1](assets/codex1.png)
+![Codex 2](assets/codex2.png)
+![Codex 3](assets/codex3.png)
+![Codex 4](assets/codex4.png)
+![Codex 5](assets/codex5.png)
+![Codex 6](assets/codex6.png)
+![Codex 7](assets/codex7.png)
+![Codex 8](assets/codex8.png)
+![Codex 9](assets/codex9.png)
+![Codex 10](assets/codex10.png)
+
+</details>
 
 <br>
 
-### Agente 2
-![Agente 2](assets/agente2.png)
+### Agente 2 — Cursor
+<details>
+<summary><strong>Ver galería de capturas (8 imágenes)</strong></summary>
+<br>
+
+![Cursor 1](assets/cursor1.png)
+![Cursor 2](assets/cursor2.png)
+![Cursor 3](assets/cursor3.png)
+![Cursor 4](assets/cursor4.png)
+![Cursor 5](assets/cursor5.png)
+![Cursor 6](assets/cursor6.png)
+![Cursor 7](assets/cursor7.png)
+![Cursor 8](assets/cursor8.png)
+
+</details>
 
 <br>
 
