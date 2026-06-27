@@ -14,7 +14,7 @@ Desarrollo de una Landing Page completa mediante **Prompt Engineering** utilizan
 
 **👤 Estudiante:** Mariana Aiello  
 **🏫 IFTS N.º 29 – Comisión 2° D**  
-**🌐 Deploy:** <a href="LINK_VERCEL"> Proyecto en Vercel</a>
+**🌐 Deploy:** <a href="https://pfo-2-landing-aiello.vercel.app/"> Proyecto en Vercel</a>
 
 <br>
 
@@ -53,7 +53,7 @@ A partir de ese mismo prompt se busca:
 
 🔗 **Vercel**
 
-> [Completar con el enlace]
+> <a href="https://pfo-2-landing-aiello.vercel.app/"> Proyecto en Vercel</a>
 
 La portada del proyecto permite acceder a:
 
